@@ -13,7 +13,7 @@
 #ListenAddress 0.0.0.0
 #ListenAddress ::
 
-AllowGroups puffy dsync
+AllowGroups janitor dsync
 
 #HostKey /etc/ssh/ssh_host_rsa_key
 #HostKey /etc/ssh/ssh_host_dsa_key
@@ -97,7 +97,7 @@ Subsystem	sftp	internal-sftp # internal-sftp for ChrootDirectory
 #	PermitTTY no
 #	ForceCommand cvs server
 
-Match User puffy
+Match User janitor
 	AllowTcpForwarding yes
 #	PermitOpen host:port
 

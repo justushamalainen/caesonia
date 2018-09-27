@@ -7,15 +7,15 @@ security			postmaster
 hostmaster			postmaster
 webmaster			postmaster
 dmarcreports			postmaster
-postmaster			puffy@example.com
+postmaster			janitor@growtharchitect.fi
 
-# Virtual aliases for example.net
+# Virtual aliases for websink.fi
 #
-puffy@example.net		puffy@example.com
+janitor@websink.fi		janitor@growtharchitect.fi
 
 # Virtual users are mapped to system user "vmail"
 #
-puffy@example.com		vmail
+janitor@growtharchitect.fi		vmail
 
 # OpenPGP Web Key Service (WKS) Submission Address
-key-submission@example.com	vmail
+key-submission@growtharchitect.fi	vmail

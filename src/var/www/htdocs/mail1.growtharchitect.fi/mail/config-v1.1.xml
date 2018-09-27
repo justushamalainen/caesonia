@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <clientConfig version="1.1">
-  <emailProvider id="example.com">
-    <domain>example.com</domain>
+  <emailProvider id="growtharchitect.fi">
+    <domain>growtharchitect.fi</domain>
     <displayName>OpenBSD Email Service</displayName>
     <displayShortName>Caesonia</displayShortName>
     <incomingServer type="imap">
-      <hostname>mercury.example.com</hostname>
+      <hostname>mail1.growtharchitect.fi</hostname>
       <port>993</port>
       <socketType>SSL</socketType>
       <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </incomingServer>
     <outgoingServer type="smtp">
-      <hostname>mercury.example.com</hostname>
+      <hostname>mail1.growtharchitect.fi</hostname>
       <port>587</port>
       <socketType>STARTTLS</socketType>
       <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </outgoingServer>
-    <documentation url="https://autoconfig.example.com/">
+    <documentation url="https://autoconfig.growtharchitect.fi/">
       <descr lang="en">Client configuration</descr>
     </documentation>
   </emailProvider>

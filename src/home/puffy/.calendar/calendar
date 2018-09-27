@@ -6,7 +6,7 @@
 LANG=C
 
 /* Domain names */
-#include <calendar.example.com>
+#include <calendar.growtharchitect.fi>
 
 /* Hosting */
 #include <calendar.host.1>

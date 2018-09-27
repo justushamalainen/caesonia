@@ -1,6 +1,6 @@
 # Local sender whitelist
 # https://man.openbsd.org/smtpd.conf#sender
-@example.com
-@hermes.example.com
-@mercury.example.com
-@example.net
+@growtharchitect.fi
+@mail2.growtharchitect.fi
+@mail1.growtharchitect.fi
+@websink.fi

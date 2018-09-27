@@ -1,7 +1,7 @@
 #!/bin/sh
 
-DIR="/home/puffy"
-ARC="mercury.tar.gz"
+DIR="/home/janitor"
+ARC="mail1.tar.gz"
 
 tar -czv -f "${DIR}"/backup/"${ARC}" -I "${DIR}"/backup/include
 

@@ -99,4 +99,4 @@ security:	root
 # ftp:		root
 
 vmail:		/dev/null
-puffy:		puffy@example.com
+janitor:		janitor@growtharchitect.fi

@@ -1,6 +1,6 @@
 #!/bin/sh
-# Get OCSP response "example.com.ocsp.resp.der":
-# `./get-ocsp.sh example.com`
+# Get OCSP response "growtharchitect.fi.ocsp.resp.der":
+# `./get-ocsp.sh growtharchitect.fi`
 
 set -o errexit
 set -o nounset

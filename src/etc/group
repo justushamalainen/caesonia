@@ -1,4 +1,4 @@
-wheel:*:0:root,puffy
+wheel:*:0:root,janitor
 daemon:*:1:daemon
 kmem:*:2:root
 sys:*:3:root
@@ -81,7 +81,7 @@ _slaacd:*:115:
 dialer:*:117:
 nogroup:*:32766:
 nobody:*:32767:
-puffy:*:1000:
+janitor:*:1000:
 _dovecot:*:518:
 _dovenull:*:666:
 _dkimproxy:*:721:

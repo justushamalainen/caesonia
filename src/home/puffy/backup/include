@@ -98,5 +98,5 @@
 /home/dsync/.ssh/authorized_keys
 /home/dsync/.ssh/id_rsa
 /home/dsync/.ssh/id_rsa.pub
-/home/puffy/.gnupg/gpg.conf
-/home/puffy/backup/include
+/home/janitor/.gnupg/gpg.conf
+/home/janitor/backup/include
